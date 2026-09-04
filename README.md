@@ -46,7 +46,7 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python 03_representation_learning.py
+python representation_learning.py
 ```
 
 MNIST is downloaded to `data/` on first use. Generated figures are written in the project directory.
